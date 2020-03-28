@@ -1,0 +1,66 @@
+---
+title: "Project of social network analysis in Zilo"
+author: "George Moroz"
+institute: "Linguistic Convergence Laboratory, NRU HSE"
+date: |
+    | 28 March 2020
+    |
+    |
+    | ![](images/00_qrcode.png)'
+    | Presentation is available here: \alert{tinyurl.com/uh7lbtb}
+output: 
+  beamer_presentation:
+    df_print: kable
+    latex_engine: xelatex
+    citation_package: natbib
+    keep_tex: false
+    includes:
+      in_header: "config/presento.sty"
+bibliography: bibliography.bib
+biblio-style: "apalike"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+# library(qrcode)
+# png(filename="images/00_qrcode.png", width = 200, height = 200)
+# qrcode_gen("https://github.com/agricolamz/2020.03.26_HSE_Dorian_variation/raw/master/2020.03.26_HSE_Dorian_variation.pdf")
+# dev.off()
+library(tidyverse)
+```
+
+## Introduction
+
+* In Variationism (e.g. [@labov63] on Martha's Vineyard /ai/ ~ /au/, [@trudgill74] on Norwich speech, [@wolfram69] on Afro-American speech from Detroit) researchers get mad about social stratification, mostly urban.
+
+* Unfortunately, social stratification could be not the only factor that play the role (gender, age, social conntection). The next step is to investigate social networks of speakers ([@chambers95] cited after [@dorian10]):
+    * the family circle
+    * classmates and close friends
+    * (my suggestion) coworkers?
+
+* [@dorian10] provided such a results of her study on small group of Gaelic speakers, where she evaluated variation within age groups, gender, sibling groups and a self-identified peer groups
+
+## Zilo
+
+* Zilo ([zilo1238](https://glottolog.org/resource/languoid/id/zilo1238)) is one village (Botlikh district, Dagestan) dialect of Andi (Nakh-Daghestanian, Andic, [andi1255](https://glottolog.org/resource/languoid/id/andi1255))
+* The Zilo dialect has been investigated by several researches since 2016. The results of their research should be summarised in [@zilosketch].
+* The variation in Zilo was investigated in several works:
+    * class atribution [@moroz19], 16 speakers, age effect, no gender effect
+    * more variables from phonology, noun and verbal morphology and lexicon [@moroz20], 44 speakers, no age or gender effect
+    
+## Project proposal
+
+* A new variation questionary taking into account previous findings and adding more question of possible variation (alongside of non-variational questions)
+* Additional questionary about social networks:
+    * Who are your freinds, you are meet really often with?
+    * How often did you see/talk with X? (and then a long list speakers)
+    * Where do you meet? (guests, rare family gathering or phone calls, friends gathering, etc)
+
+>- I will obtain an approximation of the part of the social structure of Zilo. It makes possible:
+>    - to run centrality analysis and other network measures;
+>    - to estimate the relations of the variability of Zilo and Zilo speakers social structure
+>    - to answer the question, whether it is possible to reconstruct social structure using obtained variables
+
+# References {.allowframebreaks}

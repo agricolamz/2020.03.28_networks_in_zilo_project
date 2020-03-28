@@ -6,8 +6,8 @@ date: |
     | 28 March 2020
     |
     |
-    | ![](images/00_qrcode.png)'
-    | Presentation is available here: \alert{tinyurl.com/uh7lbtb}
+    | Presentation is available here: \alert{tinyurl.com/vjgjt75}
+    | ![](images/00_qrcode.png)
 output: 
   beamer_presentation:
     df_print: kable
@@ -26,7 +26,7 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 # library(qrcode)
 # png(filename="images/00_qrcode.png", width = 200, height = 200)
-# qrcode_gen("https://github.com/agricolamz/2020.03.26_HSE_Dorian_variation/raw/master/2020.03.26_HSE_Dorian_variation.pdf")
+# qrcode_gen("https://github.com/agricolamz/2020.03.28_networks_in_zilo_project/raw/master/2020.03.28_networks_in_zilo_project.pdf")
 # dev.off()
 library(tidyverse)
 ```
